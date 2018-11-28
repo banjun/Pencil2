@@ -1,0 +1,33 @@
+PODS:
+  - FootlessParser (0.5.1)
+  - NorthLayout (5.1.0):
+    - FootlessParser (~> 0.4)
+  - "※ikemen (0.5.0)"
+
+DEPENDENCIES:
+  - NorthLayout (from `https://github.com/banjun/NorthLayout.git`, branch `master`)
+  - "※ikemen"
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FootlessParser
+    - "※ikemen"
+
+EXTERNAL SOURCES:
+  NorthLayout:
+    :branch: master
+    :git: https://github.com/banjun/NorthLayout.git
+
+CHECKOUT OPTIONS:
+  NorthLayout:
+    :commit: 075b27756910c7909e8a21c740c637a9aa02881e
+    :git: https://github.com/banjun/NorthLayout.git
+
+SPEC CHECKSUMS:
+  FootlessParser: d59a9266ec55ed5a801fb171e25be43abfb42927
+  NorthLayout: 157045b4ef9e94019f00ec9dc66192c2b17c0c61
+  "※ikemen": 0cf85af52790db21a846ad31abca356e99da1ffb
+
+PODFILE CHECKSUM: 897241578d5974adf678906dc6ea21aaf32491f5
+
+COCOAPODS: 1.5.3

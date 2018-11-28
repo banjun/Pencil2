@@ -1,0 +1,1025 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		143CBF8484CFF68954C21AE7576F5E1C /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED4A2BC1D3CDEFB6E91E849D69D142 /* Error.swift */; };
+		1A34B16C63557970A52E02ADB333A6E3 /* ※ikemen-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C67DB937DD781C492E63D04880F2B2D9 /* ※ikemen-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20987C0FF0C0AA3E4D2B34518D1133D2 /* NorthLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 684E48B2FA99DE5B06BF0708166E6940 /* NorthLayout-dummy.m */; };
+		26A1EDD6D91EBE48AD367E75D9327CFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C1D92252C96797E862AD8AFBFBEB49A /* Foundation.framework */; };
+		42664EE8A136AD5DDEC7452EFC5083E1 /* ※ikemen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F41A3A72C0BCEF239DA51A08772B45C /* ※ikemen.swift */; };
+		4C4DE0BA427DCB0D2ADF9C66D3FB7D9A /* Pods-Pencil2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5275A710CA434670D2EC13DB28B88F33 /* Pods-Pencil2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51C20C87D33B24DEDAD7F6576F4CA216 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C1D92252C96797E862AD8AFBFBEB49A /* Foundation.framework */; };
+		59B1B492A942485933F3C818DB718E3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C1D92252C96797E862AD8AFBFBEB49A /* Foundation.framework */; };
+		679D990C39B30D1C8281F834978F87AE /* NorthLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3AFC4C6DF40F4B3337113F01A304C6 /* NorthLayout.swift */; };
+		6DB7CB358F3F2B05F5FEC2A069D00701 /* StringParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F656C6F7D88FCBA79FA5C077E7C3E6 /* StringParser.swift */; };
+		7C07A98CFD575AEFD20FD228AB797128 /* Pods-Pencil2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEE055E2B1DB71A88D05D9B101E130C /* Pods-Pencil2-dummy.m */; };
+		7D671BFC80BE8508D6BF2A4F06A8F12D /* FootlessParser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E7AA6B622BF04C7DB1F3ABF10DE8DF /* FootlessParser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F5F6FBF9F9E5158F588D308A8571D98 /* Converters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57122AFBDF1CB4E7DCBE4CE64A58546 /* Converters.swift */; };
+		8F736D127EE6356FE411620B72FDA993 /* FootlessParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A006FD8E8A01FB5CA5044EB0712D1CB /* FootlessParser-dummy.m */; };
+		98ABC79533FB338741DC19D8CC502E54 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466FFE331832AD8CBA5630B5A0E965B8 /* Parser.swift */; };
+		A403B336DA05E74984F89A9DFE07457D /* FootlessParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33873AF16900D70BAA53FF452F6DAA80 /* FootlessParser.framework */; };
+		AE9EBE0AA6F4E53E9D87B92DFB69CA67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107EB2DA1444B28A6F42C89D04A88E4B /* UIKit.framework */; };
+		AF12F1AD465B83780F4D1670656F4783 /* Parser+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A845400B3ED4F35787CA38FD2A6840 /* Parser+Operators.swift */; };
+		B6170054D13EF2F99C38F4CAA21BFF4A /* VFL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C1EDD9C09DEF973953443F75D86789 /* VFL.swift */; };
+		BDCE06F91B9651F49950752C5910DBEF /* Parsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ED0E208F7E9E47E8288BE2C5BEC2E9 /* Parsers.swift */; };
+		E046F3BAD24727FF9636E56C82C47FCD /* NorthLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 905DF85A1AA83C19C49A26C41E84B395 /* NorthLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1CB069CBE94BCB225D3BADD845F378F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C1D92252C96797E862AD8AFBFBEB49A /* Foundation.framework */; };
+		EC6BA2E627E2C98CBD26D9D35215B1A6 /* VFLSyntax.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC25076BEB34D6FBD8DEB2A07D9460 /* VFLSyntax.swift */; };
+		EF23D40F2D490A534A2CE367716557C7 /* ※ikemen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9C31E35776EEEE51723990F0F23742 /* ※ikemen-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53778EAD9B9640D7C660062008CE3ACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4333F2558A323E945F24374D0C4587A3;
+			remoteInfo = "※ikemen";
+		};
+		741199DEDFBF67439464FF547A1615BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36C616A6600E635196F52474CFB48036;
+			remoteInfo = FootlessParser;
+		};
+		80BCC2822C1D78F248C95913457EE26E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EE03DF0C39952452CA178B1BE33DD7A;
+			remoteInfo = NorthLayout;
+		};
+		A5B8D52322AD29FF3067BF3FB38A6EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36C616A6600E635196F52474CFB48036;
+			remoteInfo = FootlessParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05ED0E208F7E9E47E8288BE2C5BEC2E9 /* Parsers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parsers.swift; path = Sources/FootlessParser/Parsers.swift; sourceTree = "<group>"; };
+		102B42938E5FDDB56B23CF430AFE9CEF /* Ikemen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Ikemen.framework; path = "※ikemen.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		107EB2DA1444B28A6F42C89D04A88E4B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		15A95A7B3DC2C167C7955D3A05B7AB7A /* Pods-Pencil2-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pencil2-acknowledgements.plist"; sourceTree = "<group>"; };
+		19ED4A2BC1D3CDEFB6E91E849D69D142 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/FootlessParser/Error.swift; sourceTree = "<group>"; };
+		29F656C6F7D88FCBA79FA5C077E7C3E6 /* StringParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringParser.swift; path = Sources/FootlessParser/StringParser.swift; sourceTree = "<group>"; };
+		2C3AFC4C6DF40F4B3337113F01A304C6 /* NorthLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NorthLayout.swift; path = Classes/NorthLayout.swift; sourceTree = "<group>"; };
+		33873AF16900D70BAA53FF452F6DAA80 /* FootlessParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FootlessParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		466FFE331832AD8CBA5630B5A0E965B8 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/FootlessParser/Parser.swift; sourceTree = "<group>"; };
+		4A006FD8E8A01FB5CA5044EB0712D1CB /* FootlessParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FootlessParser-dummy.m"; sourceTree = "<group>"; };
+		4B5D363BD199DC6024E3A06D5CE71622 /* FootlessParser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FootlessParser.modulemap; sourceTree = "<group>"; };
+		4EC7FB9FC40E3B19DF700C2E504F5FA1 /* FootlessParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FootlessParser-prefix.pch"; sourceTree = "<group>"; };
+		4F41A3A72C0BCEF239DA51A08772B45C /* ※ikemen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "※ikemen.swift"; path = "Pod/Classes/※ikemen.swift"; sourceTree = "<group>"; };
+		5275A710CA434670D2EC13DB28B88F33 /* Pods-Pencil2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pencil2-umbrella.h"; sourceTree = "<group>"; };
+		55A845400B3ED4F35787CA38FD2A6840 /* Parser+Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Parser+Operators.swift"; path = "Sources/FootlessParser/Parser+Operators.swift"; sourceTree = "<group>"; };
+		64F22D227123237C17F2AAF0B48D1F8D /* Pods-Pencil2-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pencil2-resources.sh"; sourceTree = "<group>"; };
+		684E48B2FA99DE5B06BF0708166E6940 /* NorthLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NorthLayout-dummy.m"; sourceTree = "<group>"; };
+		77FED5CB1D1BBCA8DD0C5942EA56D1A5 /* ※ikemen.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "※ikemen.modulemap"; sourceTree = "<group>"; };
+		798E7FF5F2957A39C7F878EE45499884 /* Pods-Pencil2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pencil2.debug.xcconfig"; sourceTree = "<group>"; };
+		7AAFA9D3C1C1D07354009A42A39E74BC /* Pods-Pencil2-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pencil2-frameworks.sh"; sourceTree = "<group>"; };
+		7DA52637E52D40A1ADDE57D6F6510C8C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82E7AA6B622BF04C7DB1F3ABF10DE8DF /* FootlessParser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FootlessParser-umbrella.h"; sourceTree = "<group>"; };
+		905DF85A1AA83C19C49A26C41E84B395 /* NorthLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NorthLayout-umbrella.h"; sourceTree = "<group>"; };
+		90E17370E5154DEF39B7DFC67FB70E6B /* Pods_Pencil2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Pencil2.framework; path = "Pods-Pencil2.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C1D92252C96797E862AD8AFBFBEB49A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9E9C31E35776EEEE51723990F0F23742 /* ※ikemen-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "※ikemen-dummy.m"; sourceTree = "<group>"; };
+		A2950ED4F48860306FC056A28196BE01 /* FootlessParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FootlessParser.framework; path = FootlessParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE13F026B07088C460049BBC81773A0A /* NorthLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NorthLayout.xcconfig; sourceTree = "<group>"; };
+		B10BE4CC4EB51ED54BE90FFEE2540824 /* Pods-Pencil2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pencil2.release.xcconfig"; sourceTree = "<group>"; };
+		B57122AFBDF1CB4E7DCBE4CE64A58546 /* Converters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Converters.swift; path = Sources/FootlessParser/Converters.swift; sourceTree = "<group>"; };
+		BD81B8CF6D2224FB838BF5ECE768E379 /* NorthLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NorthLayout.modulemap; sourceTree = "<group>"; };
+		C0AC25076BEB34D6FBD8DEB2A07D9460 /* VFLSyntax.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VFLSyntax.swift; path = Classes/VFLSyntax.swift; sourceTree = "<group>"; };
+		C0EC3D0FF5C5D038661B0C29B49BB16C /* NorthLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NorthLayout.framework; path = NorthLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4D253C7E4279B5647EAD93CF9ADCEDC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C67DB937DD781C492E63D04880F2B2D9 /* ※ikemen-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "※ikemen-umbrella.h"; sourceTree = "<group>"; };
+		C6C1EDD9C09DEF973953443F75D86789 /* VFL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VFL.swift; path = Classes/VFL.swift; sourceTree = "<group>"; };
+		CE9CBBE12782FC5C5C853A3AB150A0E1 /* ※ikemen-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "※ikemen-prefix.pch"; sourceTree = "<group>"; };
+		D525F339CBA1CDAF3F309A10793C5567 /* Pods-Pencil2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Pencil2.modulemap"; sourceTree = "<group>"; };
+		D9962DF7CF12E9CF17B58D715108650D /* Pods-Pencil2-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pencil2-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DBEE055E2B1DB71A88D05D9B101E130C /* Pods-Pencil2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pencil2-dummy.m"; sourceTree = "<group>"; };
+		E2CC533DD11414B4772D1FB59BDCC1A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E39DC76B921D8C7B719E3011FDAF89BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF447BE273C97AD9A969042154EFFF4 /* ※ikemen.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "※ikemen.xcconfig"; sourceTree = "<group>"; };
+		FF02CA3695AA51BAC8FE8C0C965234F9 /* FootlessParser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FootlessParser.xcconfig; sourceTree = "<group>"; };
+		FFD55F1690892C84D62EC65A4AE16F98 /* NorthLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NorthLayout-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		175D4CEACC1788CD1695CA0354F940C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59B1B492A942485933F3C818DB718E3D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AA02BFDCF1489D7F1135A67172268B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A403B336DA05E74984F89A9DFE07457D /* FootlessParser.framework in Frameworks */,
+				26A1EDD6D91EBE48AD367E75D9327CFF /* Foundation.framework in Frameworks */,
+				AE9EBE0AA6F4E53E9D87B92DFB69CA67 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8CE2DECC604B33E27DC69A6616A5B0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CB069CBE94BCB225D3BADD845F378F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E30872AD918A72ADBFACE98C8D9D67E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C20C87D33B24DEDAD7F6576F4CA216 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2399DB4190DBEBA3513100C093C2EE57 /* NorthLayout */ = {
+			isa = PBXGroup;
+			children = (
+				2C3AFC4C6DF40F4B3337113F01A304C6 /* NorthLayout.swift */,
+				C6C1EDD9C09DEF973953443F75D86789 /* VFL.swift */,
+				C0AC25076BEB34D6FBD8DEB2A07D9460 /* VFLSyntax.swift */,
+				FBEEA5CB7A1043356F17A45218AD023F /* Support Files */,
+			);
+			name = NorthLayout;
+			path = NorthLayout;
+			sourceTree = "<group>";
+		};
+		23F76E57E30355C8C10EA41F02E4C789 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B5D363BD199DC6024E3A06D5CE71622 /* FootlessParser.modulemap */,
+				FF02CA3695AA51BAC8FE8C0C965234F9 /* FootlessParser.xcconfig */,
+				4A006FD8E8A01FB5CA5044EB0712D1CB /* FootlessParser-dummy.m */,
+				4EC7FB9FC40E3B19DF700C2E504F5FA1 /* FootlessParser-prefix.pch */,
+				82E7AA6B622BF04C7DB1F3ABF10DE8DF /* FootlessParser-umbrella.h */,
+				E2CC533DD11414B4772D1FB59BDCC1A2 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FootlessParser";
+			sourceTree = "<group>";
+		};
+		3F258A6D521260157D62235CE78ABA29 /* Pods-Pencil2 */ = {
+			isa = PBXGroup;
+			children = (
+				E39DC76B921D8C7B719E3011FDAF89BE /* Info.plist */,
+				D525F339CBA1CDAF3F309A10793C5567 /* Pods-Pencil2.modulemap */,
+				D9962DF7CF12E9CF17B58D715108650D /* Pods-Pencil2-acknowledgements.markdown */,
+				15A95A7B3DC2C167C7955D3A05B7AB7A /* Pods-Pencil2-acknowledgements.plist */,
+				DBEE055E2B1DB71A88D05D9B101E130C /* Pods-Pencil2-dummy.m */,
+				7AAFA9D3C1C1D07354009A42A39E74BC /* Pods-Pencil2-frameworks.sh */,
+				64F22D227123237C17F2AAF0B48D1F8D /* Pods-Pencil2-resources.sh */,
+				5275A710CA434670D2EC13DB28B88F33 /* Pods-Pencil2-umbrella.h */,
+				798E7FF5F2957A39C7F878EE45499884 /* Pods-Pencil2.debug.xcconfig */,
+				B10BE4CC4EB51ED54BE90FFEE2540824 /* Pods-Pencil2.release.xcconfig */,
+			);
+			name = "Pods-Pencil2";
+			path = "Target Support Files/Pods-Pencil2";
+			sourceTree = "<group>";
+		};
+		46CFD4B54D0BC5415E18CAC7EECE89B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2950ED4F48860306FC056A28196BE01 /* FootlessParser.framework */,
+				102B42938E5FDDB56B23CF430AFE9CEF /* Ikemen.framework */,
+				C0EC3D0FF5C5D038661B0C29B49BB16C /* NorthLayout.framework */,
+				90E17370E5154DEF39B7DFC67FB70E6B /* Pods_Pencil2.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C471912A6AA93597A121D63DB0F938C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9C1D92252C96797E862AD8AFBFBEB49A /* Foundation.framework */,
+				107EB2DA1444B28A6F42C89D04A88E4B /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5B6E531D7672ADD16D417A6AADAABF81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33873AF16900D70BAA53FF452F6DAA80 /* FootlessParser.framework */,
+				4C471912A6AA93597A121D63DB0F938C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		762426E1EB64D0AAD204F02BBB78218C /* ※ikemen */ = {
+			isa = PBXGroup;
+			children = (
+				4F41A3A72C0BCEF239DA51A08772B45C /* ※ikemen.swift */,
+				8005FF69C92FCD336BD9D81F07FCC6C7 /* Support Files */,
+			);
+			name = "※ikemen";
+			path = "※ikemen";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				5B6E531D7672ADD16D417A6AADAABF81 /* Frameworks */,
+				E76599778F4EF658C460D0C8162DD16F /* Pods */,
+				46CFD4B54D0BC5415E18CAC7EECE89B2 /* Products */,
+				A0D5C75316C7D1825832522C2E828FEB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E22BE5911E9B5AB143ABCA5EE20E1EF /* FootlessParser */ = {
+			isa = PBXGroup;
+			children = (
+				B57122AFBDF1CB4E7DCBE4CE64A58546 /* Converters.swift */,
+				19ED4A2BC1D3CDEFB6E91E849D69D142 /* Error.swift */,
+				466FFE331832AD8CBA5630B5A0E965B8 /* Parser.swift */,
+				55A845400B3ED4F35787CA38FD2A6840 /* Parser+Operators.swift */,
+				05ED0E208F7E9E47E8288BE2C5BEC2E9 /* Parsers.swift */,
+				29F656C6F7D88FCBA79FA5C077E7C3E6 /* StringParser.swift */,
+				23F76E57E30355C8C10EA41F02E4C789 /* Support Files */,
+			);
+			name = FootlessParser;
+			path = FootlessParser;
+			sourceTree = "<group>";
+		};
+		8005FF69C92FCD336BD9D81F07FCC6C7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4D253C7E4279B5647EAD93CF9ADCEDC /* Info.plist */,
+				77FED5CB1D1BBCA8DD0C5942EA56D1A5 /* ※ikemen.modulemap */,
+				EBF447BE273C97AD9A969042154EFFF4 /* ※ikemen.xcconfig */,
+				9E9C31E35776EEEE51723990F0F23742 /* ※ikemen-dummy.m */,
+				CE9CBBE12782FC5C5C853A3AB150A0E1 /* ※ikemen-prefix.pch */,
+				C67DB937DD781C492E63D04880F2B2D9 /* ※ikemen-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/※ikemen";
+			sourceTree = "<group>";
+		};
+		A0D5C75316C7D1825832522C2E828FEB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F258A6D521260157D62235CE78ABA29 /* Pods-Pencil2 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E76599778F4EF658C460D0C8162DD16F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E22BE5911E9B5AB143ABCA5EE20E1EF /* FootlessParser */,
+				2399DB4190DBEBA3513100C093C2EE57 /* NorthLayout */,
+				762426E1EB64D0AAD204F02BBB78218C /* ※ikemen */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FBEEA5CB7A1043356F17A45218AD023F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DA52637E52D40A1ADDE57D6F6510C8C /* Info.plist */,
+				BD81B8CF6D2224FB838BF5ECE768E379 /* NorthLayout.modulemap */,
+				AE13F026B07088C460049BBC81773A0A /* NorthLayout.xcconfig */,
+				684E48B2FA99DE5B06BF0708166E6940 /* NorthLayout-dummy.m */,
+				FFD55F1690892C84D62EC65A4AE16F98 /* NorthLayout-prefix.pch */,
+				905DF85A1AA83C19C49A26C41E84B395 /* NorthLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NorthLayout";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0BB9BBEF7630572DD30165516F65DAB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D671BFC80BE8508D6BF2A4F06A8F12D /* FootlessParser-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311071510CB6392E585D6C896525C9DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A34B16C63557970A52E02ADB333A6E3 /* ※ikemen-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D51632F00E0F6D85666129E4212FCD2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4DE0BA427DCB0D2ADF9C66D3FB7D9A /* Pods-Pencil2-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA33D15BE3F02AFFCA0CB2C26A24130D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E046F3BAD24727FF9636E56C82C47FCD /* NorthLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		158BBC0D5B6F754B323E708EFDF76ECE /* Pods-Pencil2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5BCDB495CA98AE3A60C24E1E3498A2B /* Build configuration list for PBXNativeTarget "Pods-Pencil2" */;
+			buildPhases = (
+				4D51632F00E0F6D85666129E4212FCD2 /* Headers */,
+				FDE191D891D6841469194160B450A238 /* Sources */,
+				E30872AD918A72ADBFACE98C8D9D67E3 /* Frameworks */,
+				4BC252C03149111C293341D0A4605EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8783F93AC7C8AA6B8F28D52D764E4CB6 /* PBXTargetDependency */,
+				5B80B3D0D628340616EB8617F3AC21B3 /* PBXTargetDependency */,
+				D0778E6974055A65A66F60581ABA1A5B /* PBXTargetDependency */,
+			);
+			name = "Pods-Pencil2";
+			productName = "Pods-Pencil2";
+			productReference = 90E17370E5154DEF39B7DFC67FB70E6B /* Pods_Pencil2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2EE03DF0C39952452CA178B1BE33DD7A /* NorthLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7F6AE455F20B87B962F5271E554F61B /* Build configuration list for PBXNativeTarget "NorthLayout" */;
+			buildPhases = (
+				FA33D15BE3F02AFFCA0CB2C26A24130D /* Headers */,
+				466207C3C2C0307835B9514071A7264D /* Sources */,
+				41AA02BFDCF1489D7F1135A67172268B /* Frameworks */,
+				0839B7F8C4634ED9964519F48AA8814A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ED737EF0D74D50ECA1C2BC1142AD8AA /* PBXTargetDependency */,
+			);
+			name = NorthLayout;
+			productName = NorthLayout;
+			productReference = C0EC3D0FF5C5D038661B0C29B49BB16C /* NorthLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		36C616A6600E635196F52474CFB48036 /* FootlessParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0C636BFDE1A272190C27BBBC2D145E /* Build configuration list for PBXNativeTarget "FootlessParser" */;
+			buildPhases = (
+				0BB9BBEF7630572DD30165516F65DAB6 /* Headers */,
+				E3F7B856195862A5DA9005D9B096F11E /* Sources */,
+				175D4CEACC1788CD1695CA0354F940C0 /* Frameworks */,
+				D63ED094752A2633535ADCCCF1306D36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FootlessParser;
+			productName = FootlessParser;
+			productReference = A2950ED4F48860306FC056A28196BE01 /* FootlessParser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4333F2558A323E945F24374D0C4587A3 /* ※ikemen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D819F8A82055116B3DA07B9E12DA84B1 /* Build configuration list for PBXNativeTarget "※ikemen" */;
+			buildPhases = (
+				311071510CB6392E585D6C896525C9DB /* Headers */,
+				FB0E2DD3B059147077C58B967AA708EC /* Sources */,
+				B8CE2DECC604B33E27DC69A6616A5B0F /* Frameworks */,
+				2CBFF1A6F22AB674E17A945869717F82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "※ikemen";
+			productName = "※ikemen";
+			productReference = 102B42938E5FDDB56B23CF430AFE9CEF /* Ikemen.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 46CFD4B54D0BC5415E18CAC7EECE89B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36C616A6600E635196F52474CFB48036 /* FootlessParser */,
+				2EE03DF0C39952452CA178B1BE33DD7A /* NorthLayout */,
+				158BBC0D5B6F754B323E708EFDF76ECE /* Pods-Pencil2 */,
+				4333F2558A323E945F24374D0C4587A3 /* ※ikemen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0839B7F8C4634ED9964519F48AA8814A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBFF1A6F22AB674E17A945869717F82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC252C03149111C293341D0A4605EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63ED094752A2633535ADCCCF1306D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		466207C3C2C0307835B9514071A7264D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20987C0FF0C0AA3E4D2B34518D1133D2 /* NorthLayout-dummy.m in Sources */,
+				679D990C39B30D1C8281F834978F87AE /* NorthLayout.swift in Sources */,
+				B6170054D13EF2F99C38F4CAA21BFF4A /* VFL.swift in Sources */,
+				EC6BA2E627E2C98CBD26D9D35215B1A6 /* VFLSyntax.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3F7B856195862A5DA9005D9B096F11E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F5F6FBF9F9E5158F588D308A8571D98 /* Converters.swift in Sources */,
+				143CBF8484CFF68954C21AE7576F5E1C /* Error.swift in Sources */,
+				8F736D127EE6356FE411620B72FDA993 /* FootlessParser-dummy.m in Sources */,
+				AF12F1AD465B83780F4D1670656F4783 /* Parser+Operators.swift in Sources */,
+				98ABC79533FB338741DC19D8CC502E54 /* Parser.swift in Sources */,
+				BDCE06F91B9651F49950752C5910DBEF /* Parsers.swift in Sources */,
+				6DB7CB358F3F2B05F5FEC2A069D00701 /* StringParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0E2DD3B059147077C58B967AA708EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF23D40F2D490A534A2CE367716557C7 /* ※ikemen-dummy.m in Sources */,
+				42664EE8A136AD5DDEC7452EFC5083E1 /* ※ikemen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE191D891D6841469194160B450A238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C07A98CFD575AEFD20FD228AB797128 /* Pods-Pencil2-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3ED737EF0D74D50ECA1C2BC1142AD8AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FootlessParser;
+			target = 36C616A6600E635196F52474CFB48036 /* FootlessParser */;
+			targetProxy = 741199DEDFBF67439464FF547A1615BD /* PBXContainerItemProxy */;
+		};
+		5B80B3D0D628340616EB8617F3AC21B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NorthLayout;
+			target = 2EE03DF0C39952452CA178B1BE33DD7A /* NorthLayout */;
+			targetProxy = 80BCC2822C1D78F248C95913457EE26E /* PBXContainerItemProxy */;
+		};
+		8783F93AC7C8AA6B8F28D52D764E4CB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FootlessParser;
+			target = 36C616A6600E635196F52474CFB48036 /* FootlessParser */;
+			targetProxy = A5B8D52322AD29FF3067BF3FB38A6EC8 /* PBXContainerItemProxy */;
+		};
+		D0778E6974055A65A66F60581ABA1A5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "※ikemen";
+			target = 4333F2558A323E945F24374D0C4587A3 /* ※ikemen */;
+			targetProxy = 53778EAD9B9640D7C660062008CE3ACB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AA3B91655AF95B1F49159CD8085CD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		236F15DB5573D7CD7FB1141B242400FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBF447BE273C97AD9A969042154EFFF4 /* ※ikemen.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/※ikemen/※ikemen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/※ikemen/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/※ikemen/※ikemen.modulemap";
+				PRODUCT_MODULE_NAME = Ikemen;
+				PRODUCT_NAME = Ikemen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5BF7A57DBDC9EC7493332CCC3687276C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF02CA3695AA51BAC8FE8C0C965234F9 /* FootlessParser.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FootlessParser/FootlessParser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FootlessParser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FootlessParser/FootlessParser.modulemap";
+				PRODUCT_MODULE_NAME = FootlessParser;
+				PRODUCT_NAME = FootlessParser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		68E08F6E1DD3D7A62D711A15C1970243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBF447BE273C97AD9A969042154EFFF4 /* ※ikemen.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/※ikemen/※ikemen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/※ikemen/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/※ikemen/※ikemen.modulemap";
+				PRODUCT_MODULE_NAME = Ikemen;
+				PRODUCT_NAME = Ikemen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7291D361C3E827CFBB23105F8DE8253E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE13F026B07088C460049BBC81773A0A /* NorthLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NorthLayout/NorthLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NorthLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NorthLayout/NorthLayout.modulemap";
+				PRODUCT_MODULE_NAME = NorthLayout;
+				PRODUCT_NAME = NorthLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8000995DA02063BF3777393CD52061DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		97ACC612CE872A1AAEEEE37CE4F4E8DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 798E7FF5F2957A39C7F878EE45499884 /* Pods-Pencil2.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Pencil2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pencil2/Pods-Pencil2.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A17506A92661DB28F21ABE74E8705C5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF02CA3695AA51BAC8FE8C0C965234F9 /* FootlessParser.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FootlessParser/FootlessParser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FootlessParser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FootlessParser/FootlessParser.modulemap";
+				PRODUCT_MODULE_NAME = FootlessParser;
+				PRODUCT_NAME = FootlessParser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EDF0A035DF251F525ACA5CBA53461977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B10BE4CC4EB51ED54BE90FFEE2540824 /* Pods-Pencil2.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Pencil2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pencil2/Pods-Pencil2.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F43E0429E0549211F3C0EE25C75CFF58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE13F026B07088C460049BBC81773A0A /* NorthLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NorthLayout/NorthLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NorthLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NorthLayout/NorthLayout.modulemap";
+				PRODUCT_MODULE_NAME = NorthLayout;
+				PRODUCT_NAME = NorthLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA3B91655AF95B1F49159CD8085CD89 /* Debug */,
+				8000995DA02063BF3777393CD52061DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0C636BFDE1A272190C27BBBC2D145E /* Build configuration list for PBXNativeTarget "FootlessParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BF7A57DBDC9EC7493332CCC3687276C /* Debug */,
+				A17506A92661DB28F21ABE74E8705C5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5BCDB495CA98AE3A60C24E1E3498A2B /* Build configuration list for PBXNativeTarget "Pods-Pencil2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97ACC612CE872A1AAEEEE37CE4F4E8DF /* Debug */,
+				EDF0A035DF251F525ACA5CBA53461977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D819F8A82055116B3DA07B9E12DA84B1 /* Build configuration list for PBXNativeTarget "※ikemen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E08F6E1DD3D7A62D711A15C1970243 /* Debug */,
+				236F15DB5573D7CD7FB1141B242400FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7F6AE455F20B87B962F5271E554F61B /* Build configuration list for PBXNativeTarget "NorthLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7291D361C3E827CFBB23105F8DE8253E /* Debug */,
+				F43E0429E0549211F3C0EE25C75CFF58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

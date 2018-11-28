@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02E18D02A4376F33C797B623 /* Pods_Pencil2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57AEC15098C8F6C7F640E042 /* Pods_Pencil2.framework */; };
 		EAD5CFD821AE9DEB0011324D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD5CFD721AE9DEB0011324D /* AppDelegate.swift */; };
 		EAD5CFDA21AE9DEB0011324D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD5CFD921AE9DEB0011324D /* ViewController.swift */; };
-		EAD5CFDD21AE9DEB0011324D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD5CFDB21AE9DEB0011324D /* Main.storyboard */; };
 		EAD5CFDF21AE9DED0011324D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD5CFDE21AE9DED0011324D /* Assets.xcassets */; };
 		EAD5CFE221AE9DED0011324D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD5CFE021AE9DED0011324D /* LaunchScreen.storyboard */; };
+		EAD5CFEA21AEA3E50011324D /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD5CFE921AEA3E50011324D /* Canvas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25CC75B43630C538C024FACF /* Pods-Pencil2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pencil2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pencil2/Pods-Pencil2.release.xcconfig"; sourceTree = "<group>"; };
+		57AEC15098C8F6C7F640E042 /* Pods_Pencil2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pencil2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD984640AC4ACB6030293A4 /* Pods-Pencil2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pencil2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pencil2/Pods-Pencil2.debug.xcconfig"; sourceTree = "<group>"; };
 		EAD5CFD421AE9DEB0011324D /* Pencil2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pencil2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD5CFD721AE9DEB0011324D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAD5CFD921AE9DEB0011324D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EAD5CFDC21AE9DEB0011324D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EAD5CFDE21AE9DED0011324D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAD5CFE121AE9DED0011324D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAD5CFE321AE9DED0011324D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD5CFE921AEA3E50011324D /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02E18D02A4376F33C797B623 /* Pods_Pencil2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D0C9FB9F411A2F97037551C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCD984640AC4ACB6030293A4 /* Pods-Pencil2.debug.xcconfig */,
+				25CC75B43630C538C024FACF /* Pods-Pencil2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6FE2AC48525FA3308517A9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57AEC15098C8F6C7F640E042 /* Pods_Pencil2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EAD5CFCB21AE9DEB0011324D = {
 			isa = PBXGroup;
 			children = (
 				EAD5CFD621AE9DEB0011324D /* Pencil2 */,
 				EAD5CFD521AE9DEB0011324D /* Products */,
+				9D0C9FB9F411A2F97037551C /* Pods */,
+				D6FE2AC48525FA3308517A9E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,7 +80,7 @@
 			children = (
 				EAD5CFD721AE9DEB0011324D /* AppDelegate.swift */,
 				EAD5CFD921AE9DEB0011324D /* ViewController.swift */,
-				EAD5CFDB21AE9DEB0011324D /* Main.storyboard */,
+				EAD5CFE921AEA3E50011324D /* Canvas.swift */,
 				EAD5CFDE21AE9DED0011324D /* Assets.xcassets */,
 				EAD5CFE021AE9DED0011324D /* LaunchScreen.storyboard */,
 				EAD5CFE321AE9DED0011324D /* Info.plist */,
@@ -71,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EAD5CFE621AE9DED0011324D /* Build configuration list for PBXNativeTarget "Pencil2" */;
 			buildPhases = (
+				70A48286D2A0336459D71A1B /* [CP] Check Pods Manifest.lock */,
 				EAD5CFD021AE9DEB0011324D /* Sources */,
 				EAD5CFD121AE9DEB0011324D /* Frameworks */,
 				EAD5CFD221AE9DEB0011324D /* Resources */,
+				31D24EC1E8FDDE9A9A57DD38 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,11 +150,61 @@
 			files = (
 				EAD5CFE221AE9DED0011324D /* LaunchScreen.storyboard in Resources */,
 				EAD5CFDF21AE9DED0011324D /* Assets.xcassets in Resources */,
-				EAD5CFDD21AE9DEB0011324D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31D24EC1E8FDDE9A9A57DD38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pencil2/Pods-Pencil2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FootlessParser/FootlessParser.framework",
+				"${BUILT_PRODUCTS_DIR}/NorthLayout/NorthLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/※ikemen/Ikemen.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FootlessParser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NorthLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Ikemen.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pencil2/Pods-Pencil2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70A48286D2A0336459D71A1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pencil2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EAD5CFD021AE9DEB0011324D /* Sources */ = {
@@ -137,20 +213,13 @@
 			files = (
 				EAD5CFDA21AE9DEB0011324D /* ViewController.swift in Sources */,
 				EAD5CFD821AE9DEB0011324D /* AppDelegate.swift in Sources */,
+				EAD5CFEA21AEA3E50011324D /* Canvas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EAD5CFDB21AE9DEB0011324D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EAD5CFDC21AE9DEB0011324D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EAD5CFE021AE9DED0011324D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +349,7 @@
 		};
 		EAD5CFE721AE9DED0011324D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCD984640AC4ACB6030293A4 /* Pods-Pencil2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +368,7 @@
 		};
 		EAD5CFE821AE9DED0011324D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25CC75B43630C538C024FACF /* Pods-Pencil2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
