@@ -4,6 +4,30 @@ import Ikemen
 final class Canvas: UIView, UIPencilInteractionDelegate {
     var onTouchesChange: ((UITouch) -> Void)?
 
+    var drawings: [UIBezierPath] = [] {
+        didSet {
+            reloadDrawingLayers()
+        }
+    }
+    var drawingLayers: [CAShapeLayer] = [] {
+        didSet {
+            oldValue.forEach {$0.removeFromSuperlayer()}
+            drawingLayers.forEach {layer.addSublayer($0)}
+        }
+    }
+    var drawingMode = false
+
+    func reloadDrawingLayers() {
+        drawingLayers = drawings.map { p in
+            CAShapeLayer() ※ {
+                $0.path = p.cgPath
+                $0.fillColor = UIColor.clear.cgColor
+                $0.strokeColor = UIColor.black.cgColor
+                $0.lineWidth = 4
+            }
+        }
+    }
+
     let centerDot = UIView() ※ {
         $0.frame = CGRect(origin: .zero, size: CGSize(width: 32, height: 32))
         $0.isHidden = true
@@ -33,6 +57,11 @@ final class Canvas: UIView, UIPencilInteractionDelegate {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         guard let pencilTouch = (touches.first {$0.type == .pencil}) else { return }
         onTouchesChange?(pencilTouch)
+
+        guard drawingMode else { return }
+        let currentDrawing = UIBezierPath()
+        currentDrawing.move(to: pencilTouch.preciseLocation(in: self))
+        drawings.append(currentDrawing)
     }
 
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -52,6 +81,18 @@ final class Canvas: UIView, UIPencilInteractionDelegate {
             .rotated(by: pencilTouch.azimuthAngle(in: self))
             .scaledBy(x: altitudeScale, y: 1)
             .translatedBy(x: -azimuthLine.bounds.width / 2, y: 0)
+
+        guard drawingMode else { return }
+        drawings.last?.addLine(to: pencilTouch.preciseLocation(in: self))
+        reloadDrawingLayers()
+    }
+
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        guard let pencilTouch = (touches.first {$0.type == .pencil}) else { return }
+        onTouchesChange?(pencilTouch)
+
+        guard drawingMode else { return }
+        drawings.last?.addLine(to: pencilTouch.preciseLocation(in: self))
     }
 
     func pencilInteractionDidTap(_ interaction: UIPencilInteraction) {
@@ -59,6 +100,8 @@ final class Canvas: UIView, UIPencilInteractionDelegate {
         case .ignore: break
         case .switchEraser:
             NSLog("%@", "Switch Current Tool <-> Eraser")
+            drawingMode = !drawingMode
+            drawings.removeAll()
         case .switchPrevious:
             NSLog("%@", "Switch Current Tool <-> Previous")
         case .showColorPalette:
